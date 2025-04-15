@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+
+/* Custom colors */
+.bg-rajasthan-blue {
+  background-color: #1e3a8a;
+}
+
+.text-rajasthan-blue {
+  color: #1e3a8a;
+}
+
+.bg-rajasthan-orange {
+  background-color: #ea580c;
+}
+
+.text-rajasthan-orange {
+  color: #ea580c;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Custom components */
+@layer components {
+  .price-tag {
+    @apply bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded;
+  }
+  
+  .time-badge {
+    @apply bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded;
+  }
+}
