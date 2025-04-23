@@ -13,12 +13,7 @@ const Navbar = () => {
             <Link to="/" className="hover:text-rajasthan-orange transition duration-300">
               Home
             </Link>
-            <Link to="/city/1" className="hover:text-rajasthan-orange transition duration-300">
-              Jaipur
-            </Link>
-            <Link to="/city/2" className="hover:text-rajasthan-orange transition duration-300">
-              Kota
-            </Link>
+            
             <Link to="#" className="hover:text-rajasthan-orange transition duration-300">
               About
             </Link>
