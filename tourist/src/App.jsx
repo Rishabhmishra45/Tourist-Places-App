@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import CityPage from './pages/CityPage';
 import PlaceDetailPage from './pages/PlaceDetailPage';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/city/:cityId" element={<CityPage />} />
           <Route path="/place/:placeId" element={<PlaceDetailPage />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

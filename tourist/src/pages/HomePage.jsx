@@ -5,7 +5,7 @@ import { rajasthanCities } from '../data/rajasthanData';
 const HomePage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-center text-rajasthan-blue mb-4">
+      <h1 className="text-4xl font-bold text-center text-black mb-4">
         Welcome to Rajasthan
       </h1>
       <p className="text-xl text-center text-gray-600 mb-12">
