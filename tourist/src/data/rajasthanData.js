@@ -1,4 +1,8 @@
 import Kota from "../assets/kota.jpg"
+import sevenwonders from "../assets/7wonders.webp"
+import KotaBarrage from "../assets/KotaBarrageDam.jpg"
+// import gandhi from "../assets/gandhi.jpg"
+
 
 export const rajasthanCities = [
 
@@ -26,7 +30,7 @@ export const touristPlaces = [
     "id": 1,
     "cityId": 2,
     "name": "Seven Wonders Park",
-    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": sevenwonders,
     "description": "Park featuring miniature replicas of the seven wonders of the world.",
     "distanceFromCityCenter": "5 km from Kota Junction",
     "timeRequired": "2 hours",
@@ -41,7 +45,7 @@ export const touristPlaces = [
     "id": 2,
     "cityId": 2,
     "name": "Kota Barrage",
-    "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": KotaBarrage,
     "description": "A scenic dam built on the Chambal River offering beautiful sunset views.",
     "distanceFromCityCenter": "3 km from Kota Junction",
     "timeRequired": "1 hour",

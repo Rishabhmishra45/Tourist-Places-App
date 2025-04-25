@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,10 +18,10 @@ const Navbar = () => {
             <Link to="/" className="hover:text-red-200 hover:underline transition duration-300">
               Home
             </Link>
-            <Link to="#" className="hover:text-red-200 hover:underline transition duration-300">
+            <Link to="/AboutUS" className="hover:text-red-200 hover:underline transition duration-300">
               About
             </Link>
-            <Link to="#" className="hover:text-red-200 hover:underline transition duration-300">
+            <Link to="/ContactUs" className="hover:text-red-200 hover:underline transition duration-300">
               Contact
             </Link>
           </div>
