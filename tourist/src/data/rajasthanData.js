@@ -1,7 +1,19 @@
 import Kota from "../assets/kota.jpg"
-import sevenwonders from "../assets/7wonders.webp"
+import sevenwonders from "../assets/Sevenwonders.jpg"
 import KotaBarrage from "../assets/KotaBarrageDam.jpg"
-// import gandhi from "../assets/gandhi.jpg"
+import garadiamahadevtemple from "../assets/garadiamahadevtemple.jpg"
+import kishoresagartalab from "../assets/kishoresagartalab.jpg"
+import chambalgarden from "../assets/chambalgarden.jpg"
+import BrijVilasPalace from "../assets/BrijVilasPalace.jpg"
+import hawamahal from "../assets/hawamahal.jpeg"
+import amber from "../assets/amber.jpg"
+import citypalace from "../assets/citypalace.jpg"
+import jantarmantra from "../assets/jantarmantra.jpg"
+import nahargarhfort from "../assets/nahargarhfort.jpeg"
+import AlbertHallMuseum from "../assets/AlbertHallMuseum .jpg"
+import Jalmahal from "../assets/Jalmahal.jpg"
+import Birlamandir from "../assets/Birlamandir.jpg"
+
 
 
 export const rajasthanCities = [
@@ -60,7 +72,7 @@ export const touristPlaces = [
     "id": 3,
     "cityId": 2,
     "name": "Garadia Mahadev Temple",
-    "image": "https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": garadiamahadevtemple,
     "description": "A serene temple located on a cliff overlooking the Chambal River.",
     "distanceFromCityCenter": "20 km from Kota Junction",
     "timeRequired": "2-3 hours",
@@ -75,7 +87,7 @@ export const touristPlaces = [
     "id": 4,
     "cityId": 2,
     "name": "Kishore Sagar Lake",
-    "image": "https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": kishoresagartalab,
     "description": "A historic artificial lake with a beautiful palace (Jag Mandir) in the center.",
     "distanceFromCityCenter": "2 km from Kota Junction",
     "timeRequired": "1-2 hours",
@@ -105,7 +117,7 @@ export const touristPlaces = [
     "id": 6,
     "cityId": 2,
     "name": "Chambal Garden",
-    "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": chambalgarden,
     "description": "A riverside garden with a mini zoo and crocodile sightings.",
     "distanceFromCityCenter": "4 km from Kota Junction",
     "timeRequired": "1-2 hours",
@@ -135,7 +147,7 @@ export const touristPlaces = [
     "id": 8,
     "cityId": 2,
     "name": "Brij Vilas Palace Museum",
-    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": BrijVilasPalace,
     "description": "A museum displaying royal collections, including sculptures, coins, and arms.",
     "distanceFromCityCenter": "3 km from Kota Junction",
     "timeRequired": "1.5 hours",
@@ -152,7 +164,7 @@ export const touristPlaces = [
     "id": 9,
     "cityId": 1,
     "name": "Hawa Mahal",
-    "image": "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": hawamahal,
     "description": "Iconic palace with a honeycomb-like facade with 953 windows.",
     "distanceFromCityCenter": "1 km from Jaipur city center",
     "timeRequired": "1 hour",
@@ -167,7 +179,7 @@ export const touristPlaces = [
     "id": 10,
     "cityId": 1,
     "name": "Amber Fort",
-    "image": "https://images.unsplash.com/photo-1559131397-f94da358a7d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": amber,
     "description": "Majestic hilltop fort with intricate carvings, mirror work, and stunning views.",
     "distanceFromCityCenter": "11 km from Jaipur city center",
     "timeRequired": "2-3 hours",
@@ -182,7 +194,7 @@ export const touristPlaces = [
     "id": 11,
     "cityId": 1,
     "name": "City Palace",
-    "image": "https://images.unsplash.com/photo-1582972236019-ea9ab737ee4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": citypalace,
     "description": "Royal palace complex with museums, courtyards, and historic artifacts.",
     "distanceFromCityCenter": "1.5 km from Jaipur city center",
     "timeRequired": "2 hours",
@@ -197,7 +209,7 @@ export const touristPlaces = [
     "id": 12,
     "cityId": 1,
     "name": "Jantar Mantar",
-    "image": "https://images.unsplash.com/photo-1587137305399-5f882dbbadc7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": jantarmantra,
     "description": "UNESCO-listed astronomical observatory with massive stone instruments.",
     "distanceFromCityCenter": "1 km from Jaipur city center",
     "timeRequired": "1 hour",
@@ -212,7 +224,7 @@ export const touristPlaces = [
     "id": 13,
     "cityId": 1,
     "name": "Nahargarh Fort",
-    "image": "https://images.unsplash.com/photo-1630409346076-9e8a9a0e0b1f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": nahargarhfort,
     "description": "Hilltop fort offering panoramic views of Jaipur, especially beautiful at sunset.",
     "distanceFromCityCenter": "15 km from Jaipur city center",
     "timeRequired": "2 hours",
@@ -242,7 +254,7 @@ export const touristPlaces = [
     "id": 15,
     "cityId": 1,
     "name": "Albert Hall Museum",
-    "image": "https://images.unsplash.com/photo-1582972236019-ea9ab737ee4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": AlbertHallMuseum ,
     "description": "Oldest museum in Rajasthan with artifacts, sculptures, and Egyptian mummies.",
     "distanceFromCityCenter": "3 km from Jaipur city center",
     "timeRequired": "1.5 hours",
@@ -257,7 +269,7 @@ export const touristPlaces = [
     "id": 16,
     "cityId": 1,
     "name": "Jal Mahal",
-    "image": "https://images.unsplash.com/photo-1582972236019-ea9ab737ee4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": Jalmahal,
     "description": "Stunning water palace floating on Man Sagar Lake (entry restricted, best viewed from outside).",
     "distanceFromCityCenter": "6 km from Jaipur city center",
     "timeRequired": "30 minutes",
@@ -272,7 +284,7 @@ export const touristPlaces = [
     "id": 17,
     "cityId": 1,
     "name": "Birla Mandir",
-    "image": "https://images.unsplash.com/photo-1582972236019-ea9ab737ee4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "image": Birlamandir,
     "description": "Beautiful white marble temple dedicated to Lord Vishnu and Goddess Lakshmi.",
     "distanceFromCityCenter": "4 km from Jaipur city center",
     "timeRequired": "1 hour",
